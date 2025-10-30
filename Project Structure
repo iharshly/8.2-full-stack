@@ -1,0 +1,21 @@
+student-management/
+│
+├── models/
+│   └── studentModel.js
+│
+├── controllers/
+│   └── studentController.js
+│
+├── routes/
+│   └── studentRoutes.js
+│
+├── app.js
+└── package.json
+
+mkdir student-management
+cd student-management
+npm init -y
+npm install express mongoose nodemon
+"scripts": {
+  "start": "nodemon app.js"
+}
